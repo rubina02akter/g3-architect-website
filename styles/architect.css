@@ -25,6 +25,10 @@
   font-size: 1.25rem;
   border-radius: 8px;
 }
+.section-title{
+  font-size: 1.4rem;
+  font-weight: 700;
+}
 /* main{
   width: 720px;
   margin: 0 auto;
@@ -96,9 +100,7 @@ main > section{
   margin-left: 60px;
   
 }
-.feature-title{
-  font-size: 1.4rem;
-}
+
 
 /* responsive media query */
 @media screen and (max-width: 576px){
