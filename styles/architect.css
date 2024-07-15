@@ -101,6 +101,36 @@ main > section{
   
 }
 
+/* some facts related styles */
+.some-facts{
+  margin: 50px 100px;
+}
+.facts-number{
+  font-size: 2rem;
+  font-weight: 600;
+  margin: 3px 6px;
+}
+.facts-container{
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+}
+.fact-card{
+  width: 180px;
+  height: 180px;
+  border: 1px solid #FF900E;
+  border-radius: 6px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.fact-name{
+  margin-top: 5px;
+  font-size: 1rem;
+  font-weight: 600;
+}
+.fact-description{
+  max-width: 500px;
+}
 
 /* responsive media query */
 @media screen and (max-width: 576px){
